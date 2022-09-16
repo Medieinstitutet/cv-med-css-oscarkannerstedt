@@ -261,3 +261,79 @@ textarea {
   }
 }
 
+
+
+/*----------------------------------------------*/
+/*----------------------Body--------------------*/
+/*----------------------------------------------*/
+
+body {
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 1000px;
+  background-color: black; 
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+
+/*----------------------------------------------*/
+/*--------------------Left-side-----------------*/
+/*----------------------------------------------*/
+
+.left-side .container {
+  position: relative;
+  background: black;
+  padding: 40px;
+}
+
+.education {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.education .picture {
+  position: relative;
+}
+
+.education h2 {
+color: white;
+font-size: 1.5em;
+margin-top: 20px;
+text-transform: uppercase;
+text-align: center;
+}
+
+.education-info {
+color: white;
+text-align: center;
+}
+
+.contact-info {
+  color: white;
+  text-align: center;
+}
+
+/*----------------------------------------------*/
+/*--------------------right-side----------------*/
+/*----------------------------------------------*/
+
+.container .right-side {
+  position: relative;
+  background: white;
+}
+
+
+
