@@ -266,8 +266,7 @@ video {
 /*----------------------------------------------*/
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Rubik:wght@300&display=swap');
-*
-{
+*{
   margin: 0;
   padding: 0; 
   box-sizing: border-box;
@@ -435,7 +434,7 @@ line-height: 1.4em;
   top: 0;
   left: 0;
   height: 100%;
-  background: red;
+  background: rgb(3, 3, 248);
 }
 
 /*----------------------------------------------*/
