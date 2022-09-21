@@ -309,7 +309,6 @@ body {
   padding-bottom: 20px;
   border-bottom: 1px solid rgba(255,255,255,0.2);
 }
-
 .info h2 {
 color: white;
 font-size: 1.5em;
@@ -319,13 +318,10 @@ text-align: center;
 font-weight: 600;
 line-height: 1.4em;
 }
-
 .info h2 span {
   font-size: 0.8em;
   font-weight: 300;
 }
-
-
 
 /*----------------------------------------------*/
 /*-----------------picture of Me----------------*/
@@ -339,7 +335,6 @@ line-height: 1.4em;
   overflow: hidden;
   margin-top: 25px;
 }
-
 .info .picture img {
   position: absolute;
   top: 0;
@@ -441,11 +436,11 @@ line-height: 1.4em;
   padding: 40px;
 }
 
-.About {
+.about {
   margin-bottom: 50px;
 }
 
-.About:last-child {
+.about:last-child {
   margin-bottom: 0;
 }
 
@@ -460,23 +455,23 @@ p {
   color: black;
 }
 
-.About .box {
+.about .box {
   display: flex;
   flex-direction: row;
   margin: 20px 0;
 }
 
-.About .box .year-company {
+.about .box .year-company {
   min-width: 150px;
 }
 
-.About .box .year-company h5 {
+.about .box .year-company h5 {
   text-transform: uppercase;
   color: black;
   font-weight: 600;
 }
 
-.About .box .text h4 {
+.about .box .text h4 {
   text-transform: uppercase;
   color: black;
   font-size: 16px;
@@ -498,10 +493,10 @@ p {
 /*----------------------------------------------*/
 
 @media (max-width:600px) {
-  .About .box {
+  .about .box {
     flex-direction: column;
   }
-  .About .box .year-company {
+  .about .box .year-company {
     margin-bottom: 5px;
   }
 }
