@@ -159,7 +159,7 @@ video {
  *    `:before` to contain the top-margins of child elements.
  */
 
-./*clearfix::before,
+/*.clearfix::before,
 .clearfix::after {
   content: " ";
   display: table;
@@ -387,7 +387,7 @@ line-height: 1.4em;
 /*----------------------------------------------*/
 
 .contactinfo.education li {
-  line-height: 5px;
+  line-height: 20px;
 }
 
 .contactinfo.education h5 {
